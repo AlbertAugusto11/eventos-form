@@ -23,9 +23,11 @@
         class="input__box--text"
         type="text"
         placeholder="Digite seu nome..."
+        required
       />
       <label for="select-pet">Escolha um pet</label>
-      <select id="select-pet" class="input__box--select">
+      <select id="select-pet" class="input__box--select" required>
+        <option value="">Selecione entre as opções</option>
         <option value="cachorro">Cachorro</option>
         <option value="gato">Gato</option>
         <option value="hamster">Hamster</option>
@@ -33,7 +35,9 @@
         <option value="aranha">Aranha</option>
         <option value="peixe">Peixe</option>
       </select>
+      <div>
       <button class="form__btn--submit">Enviar</button>
+      </div>
     </form>
   </body>
 </html>

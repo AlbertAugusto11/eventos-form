@@ -26,12 +26,15 @@ body {
 
   border-radius: 4px;
   padding: 1rem;
+
+  font-weight: bolder;
 }
 
 .input__box--text,
 .input__box--select {
   padding: 0.8rem;
   margin-block: 0.8rem;
+  border: 2px solid black;
 }
 
 .form__btn--submit {
@@ -40,5 +43,4 @@ body {
   padding: 0.5rem 1rem;
   background-color: #ff5050;
   color: white;
-  align-self: flex-end;
 }
